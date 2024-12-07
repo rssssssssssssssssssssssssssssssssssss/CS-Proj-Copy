@@ -24,5 +24,14 @@
             </form>
         </section>
         <script src="Project.js"></script>
+        <script>
+            let productName = localStorage.getItem('saveProductName');
+            let productNumber = localStorage.getItem('saveProductNumber');
+            productNumber = productNumber.slice(6);
+            if(productNumber == 1){
+                productName = productName.slice(0, -1);
+            }
+            document.getElementById('order').innerText = productNumber + ' ' + productName;
+        </script>
 </body>
 </html>

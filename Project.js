@@ -1,10 +1,24 @@
-function cart4(){
-    document.getElementById('order').innerHTML = '<p>Textured Acetate Sheets</p>';
-    console.log('display Textured Acetate Sheets');
+function cart1DataSave(productName, productNumber){
+    localStorage.setItem('saveProductName', productName);
+    localStorage.setItem('saveProductNumber', productNumber);
+    window.location.href = 'Buy.html';
 }
-document.getElementById('cart4').addEventListener('click', cart4);
 
-function cart3(){
-    document.getElementById('order').innerText = '<p>Colored Acetate Sheets</p>';
+function cart2DataSave(productName, productNumber){
+    localStorage.setItem('saveProductName', productName);
+    localStorage.setItem('saveProductNumber', productNumber);
+    window.location.href = 'Buy.html';
 }
-document.getElementById('cart3').addEventListener('click', cart3);
+
+
+function cart3DataSave(productName, productNumber){
+    localStorage.setItem('saveProductName', productName);
+    localStorage.setItem('saveProductNumber', productNumber);
+    window.location.href = 'Buy.html';
+}
+
+function cart4DataSave(productName, productNumber){
+    localStorage.setItem('saveProductName', productName);
+    localStorage.setItem('saveProductNumber', productNumber);
+    window.location.href = 'Buy.html';
+}

@@ -86,12 +86,18 @@
             <div class="product-info">
                 <h3>Clear Acetate Sheet</h3>
                 <p>Size: A4 (210 x 297 mm)</p>
+                <p>Select number of sheets</p>
+                <select id="numberDropdown1">
+                    <option value="option1">1</option>
+                    <option value="option2">2</option>
+                    <option value="option3">3</option>
+                    <option value="option4">4</option>
+                    <option value="option5">5</option>
+                  </select>
                 
             </div>
-            <form action="Buy.html">
-                <button>Add to Cart</button>
-            </form>
-            
+            <button id="cart1" onclick="cart1DataSave('Clear Acetate Sheets', document.getElementById('numberDropdown1').value)">Add to Cart</button>
+
         </div>
 
         <div class="product">
@@ -99,11 +105,18 @@
             <div class="product-info">
                 <h3>Frosted Acetate Sheet</h3>
                 <p>Size: A3 (297 x 420 mm)</p>
+                <p>Select number of sheets</p>
+                <select id="numberDropdown2">
+                    <option value="option1">1</option>
+                    <option value="option2">2</option>
+                    <option value="option3">3</option>
+                    <option value="option4">4</option>
+                    <option value="option5">5</option>
+                  </select>
                 
             </div>
-            <form action="Buy.html">
-                <button>Add to Cart</button>
-            </form>
+            <button id="cart2" onclick="cart2DataSave('Frosted Acetate Sheets', document.getElementById('numberDropdown2').value)">Add to Cart</button>
+
         </div>
 
         <div class="product">
@@ -111,23 +124,39 @@
             <div class="product-info">
                 <h3>Colored Acetate Sheet</h3>
                 <p>Size: 12 x 12 inch</p>
+                <p>Select number of sheets</p>
+                <select id="numberDropdown3">
+                    <option value="option1">1</option>
+                    <option value="option2">2</option>
+                    <option value="option3">3</option>
+                    <option value="option4">4</option>
+                    <option value="option5">5</option>
+                  </select>
             
             </div>
-            <form action="Buy.html">
-                <button id="cart3">Add to Cart</button>
-            </form>
+            
+                <button id="cart3" onclick="cart3DataSave('Colored Acetate Sheets', document.getElementById('numberDropdown3').value)">Add to Cart</button>
+            
         </div>
 
         <div class="product">
             <img src="pictures/text ace.png" alt="Textured Acetate Sheet">
             <div class="product-info">
                 <h3>Textured Acetate Sheet</h3>
-                <p>Size: A5 (148 x 210 mm)</p>
+                <p>Size: A5 (148 x 210 mm)</p> <br>
+                <p>Select number of sheets</p>
+                <select id="numberDropdown4">
+                    <option value="option1">1</option>
+                    <option value="option2">2</option>
+                    <option value="option3">3</option>
+                    <option value="option4">4</option>
+                    <option value="option5">5</option>
+                  </select>
                 
             </div>
-            <form action="Buy.html">
-                <button id="cart4">Add to Cart</button>
-            </form>
+         
+                <button id="cart4" onclick="cart4DataSave('Textured Acetate Sheets', document.getElementById('numberDropdown4').value)">Add to Cart</button>
+       
         </div>
     </div>
     <script src="Project.js"></script>

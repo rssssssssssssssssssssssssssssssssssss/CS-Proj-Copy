@@ -92,3 +92,7 @@ button {
 }
 button:hover {
     background: #4c4cae;}
+
+#numberDropdown{
+    display: inline;
+}
